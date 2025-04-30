@@ -3,7 +3,7 @@ import os
 import requests
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-TELEGRAM_USER_ID = os.getenv("TELEGRAM_CHAT_ID")
+TELEGRAM_USER_ID = os.getenv("TELEGRAM_USER_ID")
 
 def send_telegram_message(text):
     if not TELEGRAM_TOKEN or not TELEGRAM_USER_ID:

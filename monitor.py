@@ -1,9 +1,8 @@
 import time
-import os
 import requests
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-TELEGRAM_USER_ID = os.getenv("TELEGRAM_USER_ID")
+TELEGRAM_TOKEN = "8142937859:AAFIRhDThncqUSaYH4hYOUZcNLFFDMvaDQk"
+TELEGRAM_USER_ID = "7398446407"
 
 def send_telegram_message(text):
     if not TELEGRAM_TOKEN or not TELEGRAM_USER_ID:

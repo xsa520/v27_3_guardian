@@ -21,6 +21,7 @@ def send_telegram_message(text):
         print(f"⚠️ 推播失敗: {e}")
 
 def run_monitor():
+    send_telegram_message("✅ V27.3 策略已啟動，Telegram 通知測試成功！")
     while True:
         message = "🛡️ V27.3 策略正在監控中... 每10秒推播一次"
         print(message)
